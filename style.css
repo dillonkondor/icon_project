@@ -1,0 +1,139 @@
+div.top-stuff {
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 3%;
+    border: 10px;
+    background-color: lightblue;
+}
+
+body {
+    background-color: slategrey;
+}
+/*love how these two fonts contrast*/
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Andada Pro', serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+h3 {
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Andada Pro', serif;
+}
+
+p {
+
+    font-family: 'Andada Pro', serif;
+}
+
+.intro-text {
+    font-family: 'Andada Pro', serif;
+    font-size: 20px;
+    }
+
+.headers {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+}
+
+.byline {
+    font-family: 'Andada Pro', serif;
+    font-style: italic;
+}
+
+.numbers {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.header-img {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Andada Pro', serif;
+}
+
+.header-img img {
+    max-width: 800px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+figcaption .credit {
+    color: lightslategrey;
+    margin-right: 25%;
+}
+
+body>div>div.lower-stuff>div>div.img-child>figcaption {
+    max-width: 200px;
+}
+
+div.parent {
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+div.parent .img-child img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+div.parent .img-child, div.parent .text-child {
+    flex-basis: 50%;
+}
+
+.lower-stuff {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.Kicker {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+/*hoping this text isn't too tiny for sources?*/
+.sources {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%
+      font-family: 'Andada Pro', serif;
+    font-size: 11px;
+    color: dimgrey;
+}
+
+footer {
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 15px;
+}
